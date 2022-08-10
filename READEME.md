@@ -1,6 +1,6 @@
-# Projeto Airbnb Rio - Ferramenta de Previsão de Preço de Imóvel 
+# Projeto Airbnb Rio de Janeiro - Ferramenta de Previsão de Preço de Imóvel 
 
-### Contexto
+## Contexto
 
 No Airbnb, qualquer pessoa que tenha um quarto ou um imóvel de qualquer tipo (apartamento, casa, chalé, pousada, etc.) pode ofertar o seu imóvel para ser alugado por diária.<br>
 <br>
@@ -10,13 +10,15 @@ Nesse anúncio, o host deve descrever as características do imóvel da forma ma
 <br>
 Existem dezenas de personalizações possíveis no seu anúncio, desde quantidade mínima de diária, preço, quantidade de quartos, até regras de cancelamento, taxa extra para hóspedes extras, exigência de verificação de identidade do locador, etc.<br>
 
-### Objetivo
+
+
+## Objetivo
 
 Construir um modelo de previsão de preço que permita uma pessoa comum que possui um imóvel possa saber quanto deve cobrar pela diária do seu imóvel.<br>
 <br>
 Ou ainda, para o locador comum, dado o imóvel que ele está buscando, ajudar a saber se aquele imóvel está com preço atrativo (abaixo da média para imóveis com as mesmas características) ou não.
 
-### O que temos disponível, inspirações e créditos
+## O que temos disponível, inspirações e créditos
 
 As bases de dados foram retiradas do site kaggle: <https://www.kaggle.com/allanbruno/airbnb-rio-de-janeiro>
 
@@ -39,7 +41,7 @@ O projeto é formado por dois arquivos:
 *não fiz upçoad das bases de dados no Github pois tem aproximadamente 5gb. 
 <https://www.kaggle.com/allanbruno/airbnb-rio-de-janeiro>
 
-### Scikit-learn | Modelos Testados
+## Scikit-learn | Modelos Testados
 <https://scikit-learn.org/stable/><br>
 
 Os modelos testados foram os seguintes:<br>
@@ -58,13 +60,14 @@ Modelo ExtraTress<br>
  RSME: 41.84<br>
 
 <br>
-#### Análise do Melhor Modelo
+
+## Análise do Melhor Modelo
 Modelo exclolhido foi o ExtraTressRegressor:<br>
  - maior acertividade 97,51%<br>
  - menor valor de RSME, margem de erro<br>
  - velocidade de processamento semelhante à de RandomForest<br>
 
-### Conclusão:
+## Conclusão:
 Através da tabela de importância das feature gerada pelo modelo, ou seja, o percentual de impacto de cada feature na previsão do modelo, podemos fazer as seguintes suposições:<br>
 
 A localização tem o maior impacto sobre o preço, visto que latitude e longitude, somam pouco mais de 20% na relevância da formação do preço.<br>
