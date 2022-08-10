@@ -80,3 +80,9 @@ As demais colunas oferecem menor relevância e eventualmente poderão ser removi
 
 Resultado dos modelos no projeto(gráficos).
 
+## Deploy:
+O deploy foi feito com o Streamlit, que facilita a construção de uma interface para usabilidade do modelo.
+
+<img align="center" alt="mnsJr-Flask" height="680" width="843" src="https://github.com/mnsjr/Projeto-Airbnb-Ciencia-de-Dados-Machine-Learning/blob/main/Streamlit.png" />
+
+
